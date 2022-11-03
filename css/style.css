@@ -1,6 +1,6 @@
 @font-face {
-    font-family: ChenYuluoyan-Thin;
-    src: url('/fonts/ChenYuluoyan-Thin.woff') format("woff");
+    font-family: 'ChenYuluoyan-Thin';
+    src: url('../fonts/ChenYuluoyan-Thin.woff') format("woff");
 }
 
 html{
