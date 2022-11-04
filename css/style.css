@@ -53,6 +53,14 @@ header{
     /*background-color: #2b8b97;*/
 }
 
+.game_icon img{
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.game_icon img:hover{
+    transform:scale(1.2,1.2);
+}
+
 .game_title{
     width: 450px;
     height: 80px;
@@ -61,6 +69,14 @@ header{
     margin-left: 35%;
     /* padding: 0 auto; */
     /* background-color:#213f2a30; */
+}
+
+.game_title img{
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+
+.game_title img:hover{
+    transform:scale(1.2,1.2);
 }
 
 .icons{
@@ -113,6 +129,7 @@ header{
     padding: 0 5px;
     margin: 0 5px;
     text-align: center;
+    transform:scale(1,1);transition: all 0.3s ease-out;
 }
 
 .list_item_link{
@@ -130,6 +147,7 @@ header{
 
 .list_item:hover{
     background-color: #454e52;
+    transform:scale(1,1.2);
 }
 
 .list_item_link:hover{
@@ -396,6 +414,12 @@ p{
     background-color: #fff8d99f;
     padding: 5px 5px 35px 5px;
     cursor:pointer;
+    transition:2s;
+ }
+
+ .person_headshot:hover{
+    position: relative;
+    bottom: 30px;   
  }
 
 .person_name{
@@ -407,10 +431,13 @@ p{
     padding: 0;
     cursor:pointer;
     font-family: 'ChenYuluoyan-Thin', sans-serif;
+    transition: 2s;
 }
 
 .person_name:hover{
     background-color:#c5ca9d;
+    position: relative;
+    right: 30px;
 }
 
 .person_name p{
