@@ -123,7 +123,7 @@ header{
 
 .list_item{
     display: block;
-    border-radius: 3px;
+    border-radius: 10px;
     width: 200px;
     height: 40px;
     padding: 0 5px;
